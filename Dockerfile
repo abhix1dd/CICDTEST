@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Set environment variables
-ENV API_KEY=84c7ddb2b41f32a05cb8c31c5a2f7505
+ENV API_KEY=""
 
 # Expose the port the app runs on
 EXPOSE 5004
